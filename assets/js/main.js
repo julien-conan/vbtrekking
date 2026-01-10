@@ -41,6 +41,12 @@
 				offset: 100
 			});
 
+	// Nav toggle.
+		$('.nav-toggle').on('click', function(e) {
+			e.preventDefault();
+			$('nav ul').toggleClass('is-active');
+		});
+
 	// Polyfill: Object fit.
 		if (!browser.canUse('object-fit')) {
 
