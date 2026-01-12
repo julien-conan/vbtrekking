@@ -3739,6 +3739,21 @@ input, select, textarea {
 					padding: 5.5rem 2rem 2.5rem 2rem;
 				}
 
+				#wrapper > section.intro > .content {
+					height: 40vh;
+				}
+
+				.intro > header:nth-child(1){
+					margin-top: 0;
+				}
+
+				#wrapper > section.intro{
+					top: 0;
+				}
+				#wrapper{
+					top: -60px
+				}
+
 			#wrapper .copyright {
 				padding: 0 2rem 2rem 2rem;
 			}
